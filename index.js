@@ -39,7 +39,7 @@ exports.AggregatorRegistry = require('./lib/cluster');
 const { isObject } = require('./lib/util');
 
 exports.isObject = isObject;
-exports.eventLoopLag = require('./lib/metrics/eventLoopLag);
+exports.eventLoopLag = require('./lib/metrics/eventLoopLag');
 exports.processCpuTotal = require('./lib/metrics/processCpuTotal');
 exports.processStartTime = require('./lib/metrics/processStartTime');
 exports.osMemoryHeap = require('./lib/metrics/osMemoryHeap');
